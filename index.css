@@ -1,0 +1,47 @@
+body {
+    background-image: url(vBbni9.webp);
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+div {
+    padding-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+h3 {
+    font-style: italic;
+}
+
+#start:active {
+    transform: scale(0.95);
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5),
+        inset 5px 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+#newCard:active {
+    transform: scale(0.95);
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5),
+        inset 5px 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    background-color: goldenrod;
+    color: #016f32;
+    font-weight: bold;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    border-radius: 2px;
+    margin: 5px;
+}
